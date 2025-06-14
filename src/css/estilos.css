@@ -205,6 +205,38 @@ h2, label {
   }
 }
 
+@media (max-width: 768px) {
+  .container .filtros {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .container .categorias-cartas,
+  .container .preco-cartas {
+    width: 100%;
+  }
+
+  .container .filtros .btn-filtrar {
+    width: 100%;
+    align-self: stretch;
+  }
+
+  .container .cartas {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .container .carta {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .container .carta img {
+    height: auto;
+  }
+}
+
 
 
 
